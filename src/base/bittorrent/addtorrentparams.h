@@ -50,7 +50,7 @@ namespace BitTorrent
         QString savePath;
         std::optional<bool> useDownloadPath;
         QString downloadPath;
-        bool sequential = false;
+        bool sequential = true;
         bool firstLastPiecePriority = false;
         bool addForced = false;
         std::optional<bool> addPaused;
